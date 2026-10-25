@@ -4,7 +4,7 @@ DSE final project: **UMBRA — Protocolo de rescate**, an interactive rescue sma
 
 ## Play on GitHub Pages
 
-**Site:** <https://bmunozsd.github.io/Rescue_Watch-DSE/>
+**Site:** <https://bmunozsd.github.io/Rescue_Watch-DSE/JuegoRESWATCH.html/>
 
 GitHub Pages is configured to publish the root of the `main` branch. To publish these changes:
 
