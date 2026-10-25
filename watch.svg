@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="320" viewBox="0 0 220 320" role="img" aria-labelledby="title description">
+  <title id="title">Reloj inteligente UMBRA</title>
+  <desc id="description">Reloj de rescate con correa oscura, pantalla de salud y baliza LoRa.</desc>
+  <defs>
+    <linearGradient id="strap" x2="1" y2="0">
+      <stop stop-color="#10191c"/>
+      <stop offset=".5" stop-color="#2b393b"/>
+      <stop offset="1" stop-color="#111a1d"/>
+    </linearGradient>
+    <linearGradient id="case" x2="1" y2="1">
+      <stop stop-color="#899591"/>
+      <stop offset=".3" stop-color="#344346"/>
+      <stop offset=".7" stop-color="#172125"/>
+      <stop offset="1" stop-color="#65736e"/>
+    </linearGradient>
+    <linearGradient id="screen" x2=".8" y2="1">
+      <stop stop-color="#142a29"/>
+      <stop offset="1" stop-color="#03090b"/>
+    </linearGradient>
+  </defs>
+  <rect x="69" y="3" width="82" height="314" rx="24" fill="url(#strap)" stroke="#445453"/>
+  <g fill="none" stroke="#52615d" stroke-opacity=".45">
+    <path d="M79 18h62M77 30h66M76 42h68M75 54h70M75 266h70M76 278h68M77 290h66M79 302h62"/>
+    <path d="M82 7v306M138 7v306"/>
+  </g>
+  <rect x="187" y="124" width="12" height="33" rx="5" fill="#52625e" stroke="#87968b"/>
+  <rect x="22" y="90" width="9" height="31" rx="3" fill="#344744"/>
+  <rect x="27" y="68" width="166" height="187" rx="39" fill="url(#case)" stroke="#8c9c94" stroke-width="2"/>
+  <rect x="34" y="75" width="152" height="173" rx="33" fill="#0a1215" stroke="#435551"/>
+  <rect x="42" y="83" width="136" height="157" rx="27" fill="url(#screen)" stroke="#2c4540"/>
+  <g font-family="ui-monospace, monospace">
+    <text x="55" y="108" fill="#8ce3c0" font-size="10" letter-spacing="2">UMBRA</text>
+    <text x="166" y="108" fill="#8ce3c0" font-size="9" text-anchor="end">78%</text>
+    <text x="110" y="151" fill="#eef6f0" font-size="33" text-anchor="middle">10:24</text>
+    <text x="110" y="168" fill="#8ba69b" font-size="8" letter-spacing="1.5" text-anchor="middle">BALIZA LoRa</text>
+    <path d="M55 181h110" stroke="#29433d"/>
+    <path d="M55 200h8l4-7 5 16 5-9h8" fill="none" stroke="#ff777b" stroke-width="2" stroke-linejoin="round"/>
+    <text x="91" y="204" fill="#e9f1ed" font-size="14">72</text>
+    <text x="118" y="204" fill="#58d9e4" font-size="14">98%</text>
+    <text x="74" y="221" fill="#8ba69b" font-size="8" text-anchor="middle">BPM</text>
+    <text x="139" y="221" fill="#8ba69b" font-size="8" text-anchor="middle">SpO₂</text>
+  </g>
+</svg>
